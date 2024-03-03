@@ -44,13 +44,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About",
+    url: "#how-to-use",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Pricing",
+    url: "#pricing",
   },
   {
     id: "3",
@@ -78,8 +78,8 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
+  "Data-Driven Insights",
+  "Process Automation",
   "Seamless Integration",
 ];
 
@@ -93,39 +93,40 @@ export const brainwaveServicesIcons = [
 
 export const roadmap = [
   {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    id: "2",
+    title: "Chatbot customization",
+    text: "Enable users to personalize the chatbot's appearance and behavior for a more engaging interaction.",
+    date: "Q3 2023",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    id: "4",
+    title: "Advanced Analytics Integration",
+    text: "Incorporate AI-driven analytics to track user interactions, providing insights into user behavior and preferences.",
+    date: "Q1 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    id: "5",
+    title: "Predictive Analytics for Business Insights",
+    text: "Implement predictive analytics to forecast trends, user behavior, and business outcomes, enabling proactive decision-making.",
+    date: "Q2 2024",
+    status: "planned",
     imageUrl: roadmap3,
   },
   {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    id: "7",
+    title: "Automated Content Creation",
+    text: "Deploy AI to generate relevant and engaging content automatically, improving efficiency and scalability.",
+    date: "Q3 2024",
+    status: "planned",
     imageUrl: roadmap4,
-  },
+  }
 ];
+
 
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
@@ -208,52 +209,54 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Starter",
+    description: "Basic AI Integration, Automated Workflows",
+    price: "Free",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Automated workflows to streamline repetitive tasks",
+      "Basic AI analytics for data insights",
+      "Introduction to AI with limited automation capabilities",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Professional",
+    description: "Enhanced AI Automation, Custom Integrations",
+    price: "49.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Custom AI solutions tailored to business needs",
+      "Enhanced AI analytics for deeper insights and decision support",
+      "Priority support and custom integrations with existing systems",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    description: "Full-scale AI Transformation, Strategic Consulting",
+    price: "Custom",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Full-scale AI business transformation consulting",
+      "Advanced AI analytics and custom reporting",
+      "Dedicated account management and strategic planning support",
+      "Bespoke AI development for unique business challenges",
     ],
   },
 ];
 
+
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Streamlined Operations",
+    text: "Automate routine tasks and processes to increase efficiency and allow your team to focus on strategic initiatives.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Data-Driven Decisions",
+    text: "Leverage advanced analytics and AI-driven insights to make informed decisions that drive business growth.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +264,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Enhanced Customer Experience",
+    text: "Use AI to personalize customer interactions, improve response times, and enhance overall satisfaction.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Scalability",
+    text: "Easily scale your operations with AI solutions that grow with your business, adapting to your changing needs.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,21 +281,22 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Innovation",
+    text: "Stay ahead of the competition with cutting-edge AI technology that drives innovation and opens new business opportunities.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Cost Reduction",
+    text: "Reduce operational costs by automating manual processes and optimizing resource allocation with AI efficiency.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
+
 
 export const socials = [
   {
@@ -307,13 +311,13 @@ export const socials = [
     iconUrl: twitter,
     url: "#",
   },
-  {
+ /* {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
     url: "#",
   },
-  {
+   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
@@ -324,5 +328,5 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
-  },
+  }, */
 ];
