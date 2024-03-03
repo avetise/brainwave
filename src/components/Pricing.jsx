@@ -28,9 +28,9 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Avetise"
-          title="Pay once, use forever"
-        />
+  tag="Begin Your Journey with Avetise"
+  title="Empowering Success, Together"
+/>
 
         <div className="relative">
           <PricingList />
@@ -41,7 +41,7 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="/#pricing"
           >
             See the full details
           </a>

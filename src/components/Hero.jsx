@@ -39,7 +39,7 @@ const Hero = () => {
           Harness the transformative power of AI to revolutionize your business processes with Avetise. Elevate your operational efficiency, decision-making, and customer engagement to new heights with our cutting-edge AI solutions.
         </p>
 
-          <Button href="/pricing" white>
+          <Button href="mailto:james@excelwiz.com.au" white>
             Get started
           </Button>
         </div>

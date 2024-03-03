@@ -73,8 +73,8 @@ const Header = () => {
         >
           New account
         </a> */}
-        <Button className="hidden lg:flex" href="#login">
-          Join Now
+        <Button className="hidden lg:flex" href="mailto:james@excelwiz.com.au">
+          Contact Us
         </Button>
 
         <Button

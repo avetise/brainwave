@@ -94,9 +94,9 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Chatbot Customization",
     text: "Enable users to personalize the chatbot's appearance and behavior for a more engaging interaction.",
-    date: "Q3 2023",
+    date: "3 clients",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
@@ -105,7 +105,7 @@ export const roadmap = [
     id: "4",
     title: "Advanced Analytics Integration",
     text: "Incorporate AI-driven analytics to track user interactions, providing insights into user behavior and preferences.",
-    date: "Q1 2024",
+    date: "5 clients",
     status: "progress",
     imageUrl: roadmap2,
   },
@@ -113,19 +113,20 @@ export const roadmap = [
     id: "5",
     title: "Predictive Analytics for Business Insights",
     text: "Implement predictive analytics to forecast trends, user behavior, and business outcomes, enabling proactive decision-making.",
-    date: "Q2 2024",
-    status: "planned",
+    date: "2 clients",
+    status: "progress",
     imageUrl: roadmap3,
   },
   {
     id: "7",
     title: "Automated Content Creation",
     text: "Deploy AI to generate relevant and engaging content automatically, improving efficiency and scalability.",
-    date: "Q3 2024",
-    status: "planned",
+    date: "Planned for 8 clients",
+    status: "progress",
     imageUrl: roadmap4,
   }
 ];
+
 
 
 export const collabText =
@@ -209,39 +210,42 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Starter",
-    description: "Basic AI Integration, Automated Workflows",
-    price: "Free",
+    title: "Discovery",
+    description: "AI Strategy and Opportunity Assessment",
+    price: "350",
     features: [
-      "Automated workflows to streamline repetitive tasks",
-      "Basic AI analytics for data insights",
-      "Introduction to AI with limited automation capabilities",
+      "Initial assessment to identify AI opportunities",
+      "Basic strategy development for AI integration",
+      "Recommendations for automated workflow enhancements",
     ],
   },
   {
     id: "1",
-    title: "Professional",
-    description: "Enhanced AI Automation, Custom Integrations",
-    price: "49.99",
+    title: "Growth",
+    description: "Comprehensive AI Solution Implementation",
+    price: "6999",
     features: [
-      "Custom AI solutions tailored to business needs",
-      "Enhanced AI analytics for deeper insights and decision support",
-      "Priority support and custom integrations with existing systems",
+      "Custom AI solution design and implementation",
+      "Data analytics and insight generation for decision making",
+      "Ongoing support and system integration",
+      "Priority access to new features and updates",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Full-scale AI Transformation, Strategic Consulting",
+    title: "Transformation",
+    description: "End-to-End AI Transformation Partnership",
     price: "Custom",
     features: [
-      "Full-scale AI business transformation consulting",
-      "Advanced AI analytics and custom reporting",
-      "Dedicated account management and strategic planning support",
-      "Bespoke AI development for unique business challenges",
+      "Strategic planning for full-scale AI business transformation",
+      "Advanced AI analytics, reporting, and insights",
+      "Dedicated account and project management",
+      "Custom AI development for complex business needs",
+      "Long-term partnership for continuous innovation and growth",
     ],
   },
 ];
+
 
 
 export const benefits = [
